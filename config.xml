@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
  xmlns:gap="http://phonegap.com/ns/1.0"
- id = "com.phonegap.app1"
+ id = "com.phonegap.app4"
  version= "1.0.0">
 
 <name> app4-2018 Contaminacion </name>
@@ -24,12 +24,10 @@ Paul Romero Ramirez
 <preference name="permissions"   value="INTERNET"/>
 
 
-<preference name="permisions" value="internet"/>
-
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
-<acces origin="https://*/*"/>
+<acces origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 
@@ -43,6 +41,6 @@ Paul Romero Ramirez
  <!-- Third part plugins -->
  
  <!-- Colocar icono app -->
- <icon src="res/android/mdpi.png">
+ <icon src="res/android/mdpi.png"/>
 
 </widget>
